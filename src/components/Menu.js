@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom';
+
 const Menu = () => {
   return (
     <nav>
       <ul className="menu">
-        <li><a href="/oh-facts.com/">Home</a></li>
-        <li><a href="/oh-facts.com/about">About</a></li>
-        <li><a href="/oh-facts.com/projects">Projects</a></li>
-        <li><a href="/oh-facts.com/blog">Blog</a></li>
-        <li><a href="/oh-facts.com/contact">Socials</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/contact">Socials</Link></li>
       </ul>
     </nav>
   );
