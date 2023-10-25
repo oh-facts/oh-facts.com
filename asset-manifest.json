@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/oh-facts.com/static/css/main.331162ec.css",
-    "main.js": "/oh-facts.com/static/js/main.fb6c6a23.js",
+    "main.js": "/oh-facts.com/static/js/main.3ccf5800.js",
     "static/js/787.71e672d5.chunk.js": "/oh-facts.com/static/js/787.71e672d5.chunk.js",
     "static/media/dancingloop.gif": "/oh-facts.com/static/media/dancingloop.08cfac979eaa33acb931.gif",
     "static/media/Delius-Regular.ttf": "/oh-facts.com/static/media/Delius-Regular.3f3edd99db5aca529674.ttf",
     "index.html": "/oh-facts.com/index.html",
     "main.331162ec.css.map": "/oh-facts.com/static/css/main.331162ec.css.map",
-    "main.fb6c6a23.js.map": "/oh-facts.com/static/js/main.fb6c6a23.js.map",
+    "main.3ccf5800.js.map": "/oh-facts.com/static/js/main.3ccf5800.js.map",
     "787.71e672d5.chunk.js.map": "/oh-facts.com/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.331162ec.css",
-    "static/js/main.fb6c6a23.js"
+    "static/js/main.3ccf5800.js"
   ]
 }
