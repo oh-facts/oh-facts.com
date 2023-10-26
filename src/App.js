@@ -7,22 +7,31 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Tech from './pages/projects/Tech';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Menu />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
+        <div className='Pages'>
+          <Routes>
+
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="projects/tech" element={<Tech />} />
+
+          </Routes>
+        </div>
       </Router>
       <br /><br /><br /><br /><br /><br /><br />
-      <h1> This website is under construction, both thematically, and contentathically </h1>
+      <div className='footer'>
+        <h1> This website is under construction, both thematically, and contentathically </h1>
+      </div>
+
     </div>
   );
 }

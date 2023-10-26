@@ -42,12 +42,11 @@ a:hover {
 
 .App {
   text-align: center;
-
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Pages {
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .menu {
@@ -102,4 +101,14 @@ a:hover {
   justify-content: center;
   gap: 10vw;
   margin-top: 5vw;
+}
+
+
+.footer {
+  background-color: var(--p_menu);
+  color: var(--p_text);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

@@ -1,30 +1,34 @@
 import React from 'react';
 import default_image from '../res/common/saidup.png';
+import { Link } from 'react-router-dom';
+import "../styles/pages/Projects.css"
 
 const Projects = () => {
   return (
     <div>
       <h1>Projects</h1>
       <p>
-        <h2> 
+        <h2>
           Here is my work, divided into categories:
         </h2>
         <br />
-        There is overlap between the types, the categorization is to make it look cleaner.
+        Categories are overlapping umbrella terms, but its more organized this way.
         <br />
 
       </p>
 
       <div className='card-container'>
-        <div className='card'>
-          <img className='card-image' src={default_image} alt="placeholder" />
-          <div className='card-desc-below'>
-            <p>
-              Tech
-            </p>
-          </div>
-        </div>
+        <Link to="/projects/tech">
+          <div className='card'>
+            <img className='card-image' src={default_image} alt="placeholder" />
+            <div className='card-desc-below'>
+              <p>
+                Tech
+              </p>
+            </div>
 
+          </div>
+        </Link>
         <div className='card'>
           <img className='card-image' src={default_image} alt="placeholder" />
           <div className='card-desc-below'>

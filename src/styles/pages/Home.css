@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+
+    img.disco-fox-gif {
+        width: 80vw;
+    }
+
+}
+
+@media (min-width: 769px) {
+    img.disco-fox-gif {
+        width: 25vw;
+    }
+}

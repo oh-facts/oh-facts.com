@@ -1,10 +1,11 @@
 import disco_gif from "../res/common/dancingloop.gif"
+import "../styles/pages/Home.css"
 
 const Home = () => {
     return (
         <div className="Home">
             <br /> <br /> <br />
-            <img src={disco_gif} alt="GIF" />
+            <img className="disco-fox-gif" src={disco_gif} alt="GIF" />
             <p>
                 hi, this is my website.
                 < br />
@@ -15,7 +16,7 @@ const Home = () => {
                 <br />
                 I like sushi, physics and C
                 <br /> <br />
-                and poop you :D
+                and you :D
             </div>
         </div>
 
