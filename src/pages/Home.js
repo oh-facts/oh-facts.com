@@ -15,7 +15,7 @@ const Home = () => {
                 <br />
                 I like sushi, physics and C
                 <br /> <br />
-                and you :D
+                and poop you :D
             </div>
         </div>
 

@@ -2,15 +2,31 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => {
   return (
-    <nav>
-      <ul className="menu">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
-        <li><Link to="/contact">Socials</Link></li>
-      </ul>
-    </nav>
+
+    <div className="menu">
+
+      <div className='menu-item'>
+        <Link to="/">Home</Link>
+      </div>
+
+      <div className='menu-item'>
+        <Link to="/about">About</Link>
+      </div>
+
+      <div className='menu-item'>
+        <Link to="/projects">Projects</Link>
+      </div>
+
+      <div className='menu-item'>
+        <Link to="/blog">Blog</Link>
+      </div>
+
+      <div className='menu-item'>
+        <Link to="/contact">Socials</Link>
+      </div>
+
+    </div>
+
   );
 };
 

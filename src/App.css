@@ -1,10 +1,22 @@
 /*
-Palette source: https://lospec.com/palette-list/cold-light
+  -------------Globals-------------
 */
+
+/*
+Palette source: 
+https://lospec.com/palette-list/cold-light
+*/
+
 :root {
   --p_text: #b2d5d1;
   --p_menu: #08001f;
   --p_bg: #444d84;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 @font-face {
@@ -18,6 +30,16 @@ body {
   background-color: var(--p_bg);
 }
 
+
+a:hover {
+  background-color: #555;
+}
+
+
+/*
+  ----------end-of-Globals-------------
+*/
+
 .App {
   text-align: center;
 
@@ -27,27 +49,57 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
+
 .menu {
-  list-style: none;
   display: flex;
   background-color: var(--p_menu);
-  padding: 0;
-  margin: 0;
-}
-
-.menu li {
-  margin: 0;
-  padding: 0;
-}
-
-.menu a {
-  text-decoration: none;
   color: var(--p_text);
-  padding: 15px 20px;
-  display: block;
-  transition: background-color 0.3s;
+  gap: 1vw;
+  justify-content: center;
 }
 
-.menu a:hover {
-  background-color: #555;
+.menu-item {
+  display: flex;
+}
+
+.menu-item a {
+  padding: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 5vw;
+    flex-direction: column;
+  }
+
+  .card-image {
+    width: 60vw;
+    image-rendering: pixelated;
+  }
+}
+
+@media (min-width: 769px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card-image {
+    width: 20vw;
+    image-rendering: pixelated;
+  }
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin-top: 5vw;
 }
