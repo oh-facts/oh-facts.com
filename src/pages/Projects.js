@@ -6,17 +6,21 @@ const Projects = () => {
     <div>
       <h1>Projects</h1>
       <p>
-        Notable work:
-        <br /> <br />
+        <h2> 
+          Here is my work, divided into categories:
+        </h2>
+        <br />
+        There is overlap between the types, the categorization is to make it look cleaner.
+        <br />
 
       </p>
-      
+
       <div className='card-container'>
         <div className='card'>
           <img className='card-image' src={default_image} alt="placeholder" />
           <div className='card-desc-below'>
             <p>
-              this is box 1
+              Tech
             </p>
           </div>
         </div>
@@ -25,7 +29,7 @@ const Projects = () => {
           <img className='card-image' src={default_image} alt="placeholder" />
           <div className='card-desc-below'>
             <p>
-              this is box 2
+              Games
             </p>
           </div>
         </div>
@@ -34,7 +38,7 @@ const Projects = () => {
           <img className='card-image' src={default_image} alt="placeholder" />
           <div className='card-desc-below'>
             <p>
-              this is box 2
+              Art
             </p>
           </div>
         </div>

@@ -21,6 +21,8 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </Router>
+      <br /><br /><br /><br /><br /><br /><br />
+      <h1> This website is under construction, both thematically, and contentathically </h1>
     </div>
   );
 }
