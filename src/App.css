@@ -88,11 +88,20 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: transform 0.3s;
+    background-color: var(--p_text);
+    color: var(--p_menu)
   }
 
   .card-image {
     width: 20vw;
     image-rendering: pixelated;
+
+  }
+
+  .card:hover {
+    
+    transform: scale(1.3);
   }
 }
 

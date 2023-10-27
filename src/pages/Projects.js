@@ -1,7 +1,9 @@
 import React from 'react';
 import default_image from '../res/common/saidup.png';
+import code_editor from '../res/tech/code-editor.png'
 import { Link } from 'react-router-dom';
 import "../styles/pages/Projects.css"
+
 
 const Projects = () => {
   return (
@@ -20,7 +22,7 @@ const Projects = () => {
       <div className='card-container'>
         <Link to="/projects/tech">
           <div className='card'>
-            <img className='card-image' src={default_image} alt="placeholder" />
+            <img className='card-image' src={code_editor} alt="placeholder"/>
             <div className='card-desc-below'>
               <p>
                 Tech

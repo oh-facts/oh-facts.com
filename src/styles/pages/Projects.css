@@ -1,0 +1,26 @@
+.tech-dump {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.squares_gif{
+    width: 25vw;
+}
+
+.redward_cullen{
+    width: 40vw;
+}
+
+.game-engines{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
