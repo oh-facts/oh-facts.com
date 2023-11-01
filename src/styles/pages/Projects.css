@@ -1,3 +1,55 @@
+@import "../../common.css";
+
+
+@media (max-width: 768px) {
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 10vw;
+      margin-top: 5vw;
+      flex-direction: column;
+    }
+  
+    .card-image {
+      width: 60vw;
+      image-rendering: pixelated;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: transform 0.3s;
+      background-color: var(--p_menu);
+      color: var(--p_text_i);
+    }
+  
+    .card-image {
+      width: 20vw;
+      image-rendering: pixelated;
+  
+    }
+  
+    .card:hover {
+  
+      transform: scale(1.05);
+  
+    }
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 5vw;
+  }
+  
+  
+
+
 .tech-dump {
     display: flex;
     flex-direction: column;
@@ -10,7 +62,7 @@
 }
 
 .squares_gif{
-    width: 25vw;
+    width: 35vw;
 }
 
 .redward_cullen{
@@ -23,4 +75,14 @@
     text-align: left;
     justify-content: center;
     align-items: center;
+}
+
+.game-engines-vbox{
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--p_menu);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: var(--p_text_i);
 }

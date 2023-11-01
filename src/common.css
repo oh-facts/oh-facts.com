@@ -1,0 +1,54 @@
+/*
+Palette source: 
+https://lospec.com/palette-list/cold-light
+*/
+
+:root {
+
+
+  --p_text: #920244;
+  --p_text_i: #fec28c;
+  --p_menu: #920244;
+  --p_bg: #fec28c;
+  
+  /*
+  --p_text: #382b26;
+  --p_text_i: #b8c2b9;
+  --p_menu: #382b26;
+  --p_bg: #b8c2b9;
+
+  */
+}
+
+/*
+  -------------Globals-------------
+*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'Delius';
+  src: url('./res/fonts/Delius-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Delius';
+  color: var(--p_text);
+  background-color: var(--p_bg);
+  font-size: 1.2rem;
+}
+
+
+/*
+a:hover {
+  background-color: #555;
+}
+*/
+
+
+/*
+  ----------end-of-Globals-------------
+*/
