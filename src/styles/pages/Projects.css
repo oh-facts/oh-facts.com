@@ -25,6 +25,8 @@
       transition: transform 0.3s;
       background-color: var(--p_menu);
       color: var(--p_text_i);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      border: 3px solid var(--p_menu);
     }
   
     .card-image {
@@ -62,7 +64,8 @@
 }
 
 .squares_gif{
-    width: 35vw;
+    width: 25vw;
+    border: 3px solid var(--p_menu);
 }
 
 .redward_cullen{
@@ -78,11 +81,16 @@
 }
 
 .game-engines-vbox{
-    width: 35vw;
+    width: 25.5vw;
     justify-content: center;
     align-items: center;
-    background-color: var(--p_menu);
-    padding-left: 1vw;
-    padding-right: 1vw;
-    color: var(--p_text_i);
+   
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 4vw;
+
+    background-color: var(--p_text_i);
+    color: var(--p_text);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: 3px solid var(--p_menu);
 }
