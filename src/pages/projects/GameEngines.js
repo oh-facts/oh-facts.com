@@ -20,7 +20,7 @@ const GameEngines = () => {
             bio: "Ball square could only support balls and squares, and sometimes you want to be able to do more. Hence, this engine \
             was created. Some of the original code was reused, and most of it was scrapped. Its biggest features were an ECS, \
             collision detection and resolution. I also experimented with putting the rendering on a separate thread and it only crashed sometimes, \
-            and had none of the performance benefits you'd expect. Truly a work of its time",
+            and had none of the performance benefits you'd expect.Truly, a piece of work.",
             link: "https://github.com/oh-facts/Redward-Cullen",
 
         },
@@ -31,7 +31,7 @@ const GameEngines = () => {
             bio: "Unity has always been my go-to engine, until I participated in a Ludum Dare where Unity's compile times were starting to kill me. Commenting  \
             one line of code took 10 seconds and crashes were frequent (I have a Ryzen 5800, 8 cores). And thus, a new character arc started where I decided to make \
             my own tools from scratch.  \
-            I picked C++ and SFML and made \"Eat my balls\", where balls fell from the sky and you had to eat them. Sometimes squares fell to, but if you ate them, \
+            I picked C++ and SFML and made \"Eat my balls\", where balls fell from the sky and you had to eat them. Sometimes squares fell too, but if you ate them, \
             you'd lose all your points. The \"engine\" side of things was then abstracted away to form the Ball Square Engine and was used to make Hit My Balls, \
             a glorified pong clone",
             link: "https://github.com/oh-facts/hit-my-balls/tree/main/BSE",

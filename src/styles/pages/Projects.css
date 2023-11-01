@@ -3,53 +3,53 @@
 
 @media (max-width: 768px) {
     .card-container {
-      display: flex;
-      justify-content: center;
-      gap: 10vw;
-      margin-top: 5vw;
-      flex-direction: column;
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+        margin-top: 5vw;
+        flex-direction: column;
     }
-  
+
     .card-image {
-      width: 60vw;
-      image-rendering: pixelated;
+        width: 60vw;
+        image-rendering: pixelated;
     }
-  }
-  
-  @media (min-width: 769px) {
+}
+
+@media (min-width: 769px) {
     .card {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      transition: transform 0.3s;
-      background-color: var(--p_menu);
-      color: var(--p_text_i);
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-      border: 3px solid var(--p_menu);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: transform 0.3s;
+        background-color: var(--p_menu);
+        color: var(--p_text_i);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        border: 3px solid var(--p_menu);
     }
-  
+
     .card-image {
-      width: 20vw;
-      image-rendering: pixelated;
-  
+        width: 20vw;
+        image-rendering: pixelated;
+
     }
-  
+
     .card:hover {
-  
-      transform: scale(1.05);
-  
+
+        transform: scale(1.05);
+
     }
-  }
-  
-  .card-container {
+}
+
+.card-container {
     display: flex;
     justify-content: center;
     gap: 10vw;
     margin-top: 5vw;
-  }
-  
-  
+}
+
+
 
 
 .tech-dump {
@@ -63,28 +63,32 @@
     text-align: left;
 }
 
-.squares_gif{
+.squares_gif {
     width: 25vw;
     border: 3px solid var(--p_menu);
 }
 
-.redward_cullen{
+.redward_cullen {
     width: 40vw;
 }
 
-.game-engines{
+.game-engines {
     display: flex;
     flex-direction: column;
-    text-align: left;
+
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
-.game-engines-vbox{
+.game-engines-vbox {
     width: 25.5vw;
     justify-content: center;
     align-items: center;
-   
+
+    text-align: justify;
+
+
     padding-left: 4vw;
     padding-right: 4vw;
     padding-bottom: 4vw;
