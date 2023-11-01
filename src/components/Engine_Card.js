@@ -12,10 +12,8 @@ const EngineCard = ({ title, date, image_src, bio, link }) => {
                         github link ↗
                     </a>
                     <p>{date}</p>
-                    <div className="image_container">
-                        <img className="squares_gif" src={image_src} alt="a gif where lots of squares rotate" />
-                    </div>
 
+                    <img className="squares_gif" src={image_src} alt="a gif where lots of squares rotate" />
 
 
                     <p>{bio}</p>
