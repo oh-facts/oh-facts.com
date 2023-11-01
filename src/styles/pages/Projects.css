@@ -55,7 +55,7 @@
 .tech-dump {
     display: flex;
     flex-direction: column;
-    width: 50%;
+
     font-size: 1.25rem;
     justify-content: center;
     align-items: center;
@@ -63,14 +63,24 @@
     text-align: left;
 }
 
+
+@media (max-width: 768px) {
+    .tech-dump {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) {
+    .tech-dump {
+        width: 50%;
+    }
+}
+
 .squares_gif {
-    width: 25vw;
     border: 3px solid var(--p_menu);
 }
 
-.redward_cullen {
-    width: 40vw;
-}
+
 
 .game-engines {
     display: flex;
@@ -82,7 +92,7 @@
 }
 
 .game-engines-vbox {
-    width: 25.5vw;
+
     justify-content: center;
     align-items: center;
 
@@ -97,4 +107,25 @@
     color: var(--p_text);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     border: 3px solid var(--p_menu);
+}
+
+
+@media (max-width: 768px) {
+    .game-engines-vbox {
+        width: 90%;
+    }
+
+    .squares_gif{
+        width: 80vw;
+    }
+}
+
+@media (min-width: 769px) {
+    .game-engines-vbox {
+        width: 25.5vw;
+    }
+
+    .squares_gif{
+        width: 25vw;
+    }
 }
