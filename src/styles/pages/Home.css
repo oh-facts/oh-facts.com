@@ -4,6 +4,7 @@
     img.disco-fox-gif {
         width: 80vw;
         border: 3px solid var(--p_menu);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -11,5 +12,6 @@
     img.disco-fox-gif {
         width: 25vw;
         border: 3px solid var(--p_menu);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 }

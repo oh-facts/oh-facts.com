@@ -14,7 +14,7 @@ const Projects = () => {
           Here is my work, divided into categories:
         </h2>
         <br />
-        Categories are overlapping umbrella terms, but its more organized this way.
+        Categories are overlapping umbrella terms, but they help organize.
         <br />
 
       </p>
