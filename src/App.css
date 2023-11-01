@@ -46,10 +46,11 @@
 
 
 .footer {
-  background-color: var(--p_menu);
-  color: var(--p_text_i);
+  background-color: var(--p_text_i);
+  color: var(--p_text);
   padding: 10px;
   position: fixed;
   bottom: 0;
+  font-size: 0.5rem;
   width: 100%;
 }

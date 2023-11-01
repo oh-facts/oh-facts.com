@@ -1,6 +1,7 @@
 /*
 Palette source: 
 https://lospec.com/palette-list/cold-light
+https://lospec.com/palette-list/ys-funky-jam
 */
 
 :root {
@@ -52,3 +53,19 @@ a:hover {
 /*
   ----------end-of-Globals-------------
 */
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Optional: Style the thumb (the part you drag) */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Optional: Style the track (the "background" of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}

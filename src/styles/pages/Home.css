@@ -1,13 +1,15 @@
-@media (max-width: 768px) {
+@import "../../common.css";
 
+@media (max-width: 768px) {
     img.disco-fox-gif {
         width: 80vw;
+        border: 3px solid var(--p_menu);
     }
-
 }
 
 @media (min-width: 769px) {
     img.disco-fox-gif {
         width: 25vw;
+        border: 3px solid var(--p_menu);
     }
 }
