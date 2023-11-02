@@ -1,6 +1,7 @@
 import React from 'react';
 import default_image from '../res/common/saidup.png';
 import code_editor from '../res/tech/code-editor.png'
+import Card from '../components/Card';
 import { Link } from 'react-router-dom';
 import "../styles/pages/Projects.css"
 
@@ -20,35 +21,9 @@ const Projects = () => {
       </p>
 
       <div className='card-container'>
-        <Link to="/projects/tech">
-          <div className='card'>
-            <img className='card-image' src={code_editor} alt="placeholder"/>
-            <div className='card-desc-below'>
-              <p>
-                Tech
-              </p>
-            </div>
-
-          </div>
-        </Link>
-        <div className='card'>
-          <img className='card-image' src={default_image} alt="placeholder" />
-          <div className='card-desc-below'>
-            <p>
-              Games
-            </p>
-          </div>
-        </div>
-
-        <div className='card'>
-          <img className='card-image' src={default_image} alt="placeholder" />
-          <div className='card-desc-below'>
-            <p>
-              Art
-            </p>
-          </div>
-        </div>
-
+        <Card to="/projects/tech" imageSrc={code_editor} alt="placeholder" category="Tech" />
+        <Card to="/projects/games" imageSrc={default_image} alt="placeholder" category="Games" />
+        <Card to="/projects/art" imageSrc={default_image} alt="placeholder" category="Art" />
       </div>
 
     </div>

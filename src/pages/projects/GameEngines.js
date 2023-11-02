@@ -2,6 +2,7 @@ import squares from "../../res/tech/squares.gif"
 import redwardCullen from "../../res/tech/redward-cullen.png"
 import ballSquare from "../../res/tech/eat_my_balls.png"
 import EngineCard from "../../components/Engine_Card";
+import "../../styles/pages/Projects.css"
 
 const GameEngines = () => {
 
