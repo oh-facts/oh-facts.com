@@ -8,8 +8,6 @@ import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Tech from './pages/projects/Tech';
-import GameEngines from './pages/projects/GameEngines';
-import "./styles/pages/Projects.css"
 
 function App() {
   return (
@@ -25,8 +23,6 @@ function App() {
             <Route path="blog" element={<Blog />} />
             <Route path="contact" element={<Contact />} />
             <Route path="projects/tech" element={<Tech />} />
-            <Route path="projects/tech/game-engines" element={<GameEngines />} />
-            
 
           </Routes>
         </div>
