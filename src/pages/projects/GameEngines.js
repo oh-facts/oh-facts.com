@@ -1,4 +1,5 @@
 import squares from "../../res/tech/squares.gif"
+import squares_still from "../../res/tech/squares.png"
 import redwardCullen from "../../res/tech/redward-cullen.png"
 import ballSquare from "../../res/tech/eat_my_balls.png"
 import EngineCard from "../../components/Engine_Card";
@@ -9,14 +10,16 @@ const GameEngines = () => {
         {
             title: "Yekate",
             date: "9th Aug, '23 - present",
-            image_link: squares,
+            gif_link: squares,
+            img_link: squares_still,
             bio: "A complete rewrite, except for the build process from Redward Cullen (Gen 2)",
             link: "https://github.com/oh-facts/YK-Game-Engine",
         },
         {
             title: "Redward Cullen ",
             date: "place-holder",
-            image_link: redwardCullen,
+            gif_link: redwardCullen,
+            img_link: redwardCullen,
             bio: "Ball square could only support balls and squares, and sometimes you want to be able to do more. Hence, this engine \
             was created. Some of the original code was reused, and most of it was scrapped. Its biggest features were an ECS, \
             collision detection and resolution. I also experimented with putting the rendering on a separate thread and it only crashed sometimes, \
@@ -27,7 +30,8 @@ const GameEngines = () => {
         {
             title: "Ball Square",
             date: "3rd April, '23 - 15th April, '23",
-            image_link: ballSquare, 
+            gif_link: ballSquare, 
+            img_link: ballSquare, 
             bio: "Unity has always been my go-to engine, until I participated in a Ludum Dare where Unity's compile times were starting to kill me. Commenting  \
             one line of code took 10 seconds and crashes were frequent (I have a Ryzen 5800, 8 cores). And thus, a new character arc started where I decided to make \
             my own tools from scratch.  \
@@ -42,8 +46,6 @@ const GameEngines = () => {
         <div>
 
             <div className="game-engines">
-                <h1>Game Engines</h1>
-
                 Most of my development time, apart from course work is spent on my game engine, which I use to make games, which
                 will convey stories, my favourite thing ever. I like all formats of storytelling, writing, cinema, art, music and ofc,
                 games. Games are nice because unlike other formats, they are interactive, and placing yourself as the protagonist is
@@ -63,7 +65,8 @@ const GameEngines = () => {
                         key={index}
                         title={dataItem.title}
                         date={dataItem.date}
-                        image_src={dataItem.image_link}
+                        gif_src={dataItem.gif_link}
+                        image_src={dataItem.img_link}
                         bio={dataItem.bio}
                         link={dataItem.link}
                     />

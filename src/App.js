@@ -29,7 +29,8 @@ function App() {
       </Router>
       <br /><br /><br /><br /><br /><br /><br />
       <div className='footer'>
-        <h1> This website is under construction, both thematically, and contentathically </h1>
+        <h1> This website is under construction, both thematically, and contentathically* </h1>
+        <h4> *Yes, that is a real word. No, I'm not gaslighting you</h4>
       </div>
 
     </div>

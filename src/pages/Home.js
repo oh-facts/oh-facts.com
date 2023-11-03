@@ -7,6 +7,7 @@ const Home = () => {
             <br /> <br /> <br />
             <img className="disco-fox-gif" src={disco_gif} alt="GIF" />
             <p>
+                
                 hi, this is my website.
                 < br />
                 You can find projects, ramblings and other creative endeavors here.
