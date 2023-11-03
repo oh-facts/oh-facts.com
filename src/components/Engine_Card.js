@@ -20,7 +20,7 @@ const EngineCard = ({ title, date, gif_src, image_src, bio, link }) => {
                 <div className="game-engines-vbox" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <h1>{title}</h1>
                     <a href={link} target="_blank" rel="noopener noreferrer">
-                        github link ↗
+                        <u>github</u> ↗
                     </a>
                     <p>{date}</p>
 
