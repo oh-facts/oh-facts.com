@@ -4,7 +4,11 @@ const Menu = () => {
   const location = useLocation();
 
   return (
+
     <div className="menu">
+      {/*
+         Todo: Make this a function later
+       */}
       <div className={`menu-item ${location.pathname === '/' ? 'active' : ''}`}>
         <Link to="/">Home</Link>
       </div>
@@ -20,10 +24,14 @@ const Menu = () => {
       <div className={`menu-item ${location.pathname === '/blog' ? 'active' : ''}`}>
         <Link to="/blog">Blog</Link>
       </div>
-
-      <div className={`menu-item ${location.pathname === '/contact' ? 'active' : ''}`}>
-        <Link to="/contact">Socials</Link>
-      </div>
+      {
+        /*
+      
+            <div className={`menu-item ${location.pathname === '/contact' ? 'active' : ''}`}>
+              <Link to="/contact">Socials</Link>
+            </div>
+        */
+      }
     </div>
   );
 };

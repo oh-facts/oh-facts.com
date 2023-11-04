@@ -1,0 +1,26 @@
+.about{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .about {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) {
+    .about {
+        width: 50%;
+    }
+}
+
+
+.index{
+    align-self: left;
+    width: 100%;
+    display: flex;
+}

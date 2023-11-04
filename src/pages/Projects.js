@@ -18,14 +18,16 @@ const Projects = () => {
         <br />
 
       </p>
-
+      {/*
+          Todo: Make this a function if it grows further
+      */}
       <div className='card-container'>
         <Link to="/projects/tech">
           <div className='card'>
             <img className='card-image' src={code_editor} alt="placeholder"/>
             <div className='card-desc-below'>
               <p>
-                Tech
+                Software
               </p>
             </div>
 
