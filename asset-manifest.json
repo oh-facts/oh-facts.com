@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/oh-facts.com/static/css/main.9cb4984a.css",
-    "main.js": "/oh-facts.com/static/js/main.38cb84de.js",
+    "main.css": "/oh-facts.com/static/css/main.3ee4fd20.css",
+    "main.js": "/oh-facts.com/static/js/main.1933d856.js",
     "static/js/787.71e672d5.chunk.js": "/oh-facts.com/static/js/787.71e672d5.chunk.js",
     "static/media/squares.gif": "/oh-facts.com/static/media/squares.e4c7023533aa9d4fa1ee.gif",
     "static/media/dancingloop.gif": "/oh-facts.com/static/media/dancingloop.08cfac979eaa33acb931.gif",
     "static/media/code-editor.png": "/oh-facts.com/static/media/code-editor.f30d0801f898e9df0b1f.png",
+    "static/media/squares.png": "/oh-facts.com/static/media/squares.68b6cc752c1a84f9b256.png",
     "static/media/Delius-Regular.ttf": "/oh-facts.com/static/media/Delius-Regular.3f3edd99db5aca529674.ttf",
     "static/media/redward-cullen.png": "/oh-facts.com/static/media/redward-cullen.a965c4f33d93cfe8ca1c.png",
     "index.html": "/oh-facts.com/index.html",
-    "main.9cb4984a.css.map": "/oh-facts.com/static/css/main.9cb4984a.css.map",
-    "main.38cb84de.js.map": "/oh-facts.com/static/js/main.38cb84de.js.map",
+    "main.3ee4fd20.css.map": "/oh-facts.com/static/css/main.3ee4fd20.css.map",
+    "main.1933d856.js.map": "/oh-facts.com/static/js/main.1933d856.js.map",
     "787.71e672d5.chunk.js.map": "/oh-facts.com/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cb4984a.css",
-    "static/js/main.38cb84de.js"
+    "static/css/main.3ee4fd20.css",
+    "static/js/main.1933d856.js"
   ]
 }
