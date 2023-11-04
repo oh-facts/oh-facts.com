@@ -7,7 +7,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import Tech from './pages/projects/Tech';
+import Tech from './pages/projects/Software';
 
 function App() {
   return (

@@ -42,7 +42,12 @@ body {
   font-size: 1.2rem;
 }
 
-
+hr {
+  border: none;
+  width: 100%;
+  height: 3px;
+  background-color: var(--p_menu); 
+}
 /*
 a:hover {
   background-color: #555;

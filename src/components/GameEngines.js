@@ -1,8 +1,8 @@
-import squares from "../../res/tech/squares.gif"
-import squares_still from "../../res/tech/squares.png"
-import redwardCullen from "../../res/tech/redward-cullen.png"
-import ballSquare from "../../res/tech/eat_my_balls.png"
-import EngineCard from "../../components/Engine_Card";
+import squares from "../res/tech/squares.gif"
+import squares_still from "../res/tech/squares.png"
+import redwardCullen from "../res/tech/redward-cullen.png"
+import ballSquare from "../res/tech/eat_my_balls.png"
+import ProjectCard from "./ProjectCard";
 import ReactMarkdown from 'react-markdown';
 
 const GameEngines = () => {
@@ -77,7 +77,7 @@ const GameEngines = () => {
                     game engine descriptions start here
                  */}
                 {engine_data.map((dataItem, index) => (
-                    <EngineCard
+                    <ProjectCard
                         key={index}
                         gen={dataItem.ver}
                         title={dataItem.title}

@@ -21,9 +21,10 @@ const Home = () => {
                 <br /> <br />
                  {/*
                        Todo: Make this a function if it grows further
+                       <a href="https://www.linkedin.com/in/abhyuday-srivastava-423777293/" target="_blank" rel="noopener noreferrer"><u>linkedin</u> ↗ </a> &nbsp;
                  */}
                 <a href="https://github.com/oh-facts" target="_blank" rel="noopener noreferrer"> <u> github</u> ↗ </a> &nbsp;
-                <a href="https://www.linkedin.com/in/abhyuday-srivastava-423777293/" target="_blank" rel="noopener noreferrer"><u>linkedin</u> ↗ </a> &nbsp;
+                
                 <a href="https://www.youtube.com/channel/UCfYuZbToCun8OkYJ5K37Nig" target="_blank" rel="noopener noreferrer"><u>youtube</u> ↗ </a> &nbsp;
                 
             </div>

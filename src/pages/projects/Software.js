@@ -1,4 +1,6 @@
-import GameEngines from "./GameEngines";
+import CxxBuild from "../../components/CxxBuild";
+import GameEngines from "../../components/GameEngines";
+import Websites from "../../components/Websites"
 import "../../styles/pages/Projects.css"
 
 const Tech = () => {
@@ -48,12 +50,19 @@ const Tech = () => {
 
                 <h2 id="section1">Game Engines</h2>
 
-
                 <GameEngines />
 
-                <h1 id="section2">C/C++ Build Environment</h1>
+                <h2 id="section2"></h2>
+                <hr />
+                <br />
+                <CxxBuild />
 
-                <h1 id="section3">Websites</h1>
+                <br />
+                <br />
+                <hr />
+                <br />
+                <h2 id="section3">Websites</h2>
+                <Websites />
             </div>
         </div>
 
