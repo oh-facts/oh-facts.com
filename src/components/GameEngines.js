@@ -9,17 +9,19 @@ const GameEngines = () => {
 
     const engine_data = [
         {
-            title: "Yekate",
-            ver: "gen3",
+            title: "YK",
             date: "9th Aug, '23 - present",
             gif_link: squares,
             img_link: squares_still,
-            bio: "The current version of the engine I've been working on. The most impressive one so far (duh) and something \
-            I will stick with in the long run. I've been trying to write everything by myself, and only rely on some harware specific \
+            bio: "My favorite project so far,  and something I intend to stick with in the long run \
+            . I've been trying to write everything myself (NiH syndrome), and only rely on some harware specific \
             libraries. It is written in C and uses opengl to render graphics. It can simulate 2d rigidbody physics and can render millions of triangles \
-            through instancing. Once the engine is mature enough, I will work on a voxel raytracing pipeline.",
+            through instancing. Once the engine is mature enough, I will work on a raytracing pipeline.",
             link: "https://github.com/oh-facts/YK-Game-Engine",
         },
+        /*
+
+        
         {
             title: "Redward Cullen ",
             ver: "gen2",
@@ -47,6 +49,7 @@ const GameEngines = () => {
             a glorified pong clone",
             link: "https://github.com/oh-facts/hit-my-balls/tree/main/BSE",
         }
+        */
 
     ]
 
