@@ -15,7 +15,7 @@ const Home = () => {
             <div className="Bio">
                 I am a junior at uni, majoring in computer science.
                 <br />
-                I like sushi, physics and filmmaking
+                I like sushi, physics and films
                 <br /> <br />
                 and you :D
                 <br /> <br />

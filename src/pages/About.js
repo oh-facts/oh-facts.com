@@ -8,7 +8,7 @@ const About = () => {
       <div className='about'>
         <p>
           I am a junior at Uni majoring in CS. I like working on low-level systems, simulations and automation tools.
-          I love writing everything (within reason) from scratch and and my favorite language is whatever I am being paid for.
+          I love writing everything (within reason) from scratch and and my favorite language is whatever the project requires.
           I know C, C++, Rust, Java, C#, python and JS, and I am always willing to learn more.
           I usually write my code in C since it has every feature I need, and the ones it doesn't, I just write them myself.
           <br /><br />
