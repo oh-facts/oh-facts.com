@@ -23,8 +23,7 @@ const Tech = () => {
                      */
                 }
                 I like working on low-level systems, simulations and automation tools.
-                I love writing everything (within reason) from scratch and my favorite language is whatever I am being paid for.
-                I know C, C++, Rust, Java, C#, python and JS, and I am always willing to learn more.
+                I love writing everything (within reason) from scratch.
 
                 <br /> <br />
 
